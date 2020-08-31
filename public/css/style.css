@@ -68,13 +68,36 @@
     display: flex;
     height: 768px;
     align-items: center;
-    
 }
 
 .banner2{
     background-image: url(https://picsum.photos/seed/picsum/1440/768);
     background-size: cover;
     background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btnBanner{
+    background-color: #0076FF;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.dot.active{
+    background-color: #000000;
+}
+
+.dot{
+    display: inline;
+    padding:0 10px;
+    background-color: #0076FF;
+    box-sizing: border-box;
+    border-radius: 100px;
+    margin: 0 5px;
+    cursor: pointer;
 }
 
 .text-banner{
